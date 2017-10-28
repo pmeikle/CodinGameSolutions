@@ -35,9 +35,6 @@ namespace CodinGameSolutions.There_is_no_spoon
 
                 Console.WriteLine($"{node.X} {node.Y} {rightNeighbor.X} {rightNeighbor.Y} {bottomNeighbor.X} {bottomNeighbor.Y}");
             });
-
-            // Three coordinates: a node, its right neighbor, its bottom neighbor
-            Console.WriteLine("0 0 1 0 0 1");
         }
     }
 
