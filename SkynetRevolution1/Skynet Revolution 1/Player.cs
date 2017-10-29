@@ -44,18 +44,17 @@ namespace SkynetRevolution1.Skynet_Revolution_1
         {
             foreach(var gatewayNode in gateways)
             {
+                var possiblyGatewayNodeToBreak = links.FirstOrDefault(link => link.ContainsNode(virusNode) && link.ContainsNode(gatewayNode));
 
-                if (links.Any(link => link.ContainsNode(virusNode) && link.ContainsNode(gatewayNode)))
+                if (possiblyGatewayNodeToBreak != null)
                 {
-                    var possiblyGatewayNodeToBreak = links.First(link => link.ContainsNode(virusNode) && link.ContainsNode(gatewayNode));
                     Console.WriteLine($"{possiblyGatewayNodeToBreak.FirstNode} {possiblyGatewayNodeToBreak.SecondNode}");
                     links.Remove(possiblyGatewayNodeToBreak);
                     return;
                 }
             }
 
-            var possibleLinkToBreak =
-                links.DefaultIfEmpty(null).FirstOrDefault(link => link.FirstNode == virusNode || link.SecondNode == virusNode);
+            var possibleLinkToBreak = links.FirstOrDefault(link => link.FirstNode == virusNode || link.SecondNode == virusNode);
 
             if (possibleLinkToBreak != null)
             {
