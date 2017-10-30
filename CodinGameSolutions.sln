@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27004.2005
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodinGameSolutions", "CodinGameSolutions\CodinGameSolutions.csproj", "{94E233DF-946E-4B46-9C85-59027210F97F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThereIsNoSpoon", "CodinGameSolutions\ThereIsNoSpoon.csproj", "{94E233DF-946E-4B46-9C85-59027210F97F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkynetRevolution1", "SkynetRevolution1\SkynetRevolution1.csproj", "{C18B554A-5275-4D27-8244-BB13BF0C6B4E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{94E233DF-946E-4B46-9C85-59027210F97F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{94E233DF-946E-4B46-9C85-59027210F97F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{94E233DF-946E-4B46-9C85-59027210F97F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C18B554A-5275-4D27-8244-BB13BF0C6B4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C18B554A-5275-4D27-8244-BB13BF0C6B4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C18B554A-5275-4D27-8244-BB13BF0C6B4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C18B554A-5275-4D27-8244-BB13BF0C6B4E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
