@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F506A3B6-1F18-4EA3-A6FC-6BF31901616E}</ProjectGuid>
+    <ProjectGuid>{4C4BA2F1-2B8E-4FFB-97D2-3F498EE5E7C8}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>BatmanBinarySearch1</RootNamespace>
-    <AssemblyName>BatmanBinarySearch1</AssemblyName>
+    <RootNamespace>DontPanic1</RootNamespace>
+    <AssemblyName>DontPanic1</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
