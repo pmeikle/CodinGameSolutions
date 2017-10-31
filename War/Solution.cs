@@ -35,20 +35,6 @@ namespace War
 
             while (player1Cards.Count > 0 && player2Cards.Count > 0)
             {
-                /*
-                Console.Error.WriteLine($"Round: {rounds}");
-                Console.Error.Write($"Player 1 cards: ");
-                foreach (var card in player1Cards)
-                {
-                    Console.Error.Write($"{card} ");
-                }
-                Console.Error.WriteLine();
-                Console.Error.Write($"Player 2 cards: ");
-                foreach (var card in player2Cards)
-                {
-                    Console.Error.Write($"{card} ");
-                }
-                Console.Error.WriteLine();*/
                 var player1CardsInPlay = new Queue<String>();
                 var player2CardsInPlay = new Queue<String>();
 
