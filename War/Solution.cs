@@ -70,23 +70,14 @@ namespace War
                     player2CardValue = GetCardValue(player2Card);
                 }
 
-                if (player1CardValue > player2CardValue)
-                {
-                    while(player1CardsInPlay.Count > 0)
-                        player1Cards.Enqueue(player1CardsInPlay.Dequeue());
+                var winnersCards = player1CardValue > player2CardValue ? player1Cards : player2Cards;
 
-                    while(player2CardsInPlay.Count > 0)
-                        player1Cards.Enqueue(player2CardsInPlay.Dequeue());
-                }
-                else
-                {
-                    while(player1CardsInPlay.Count > 0)
-                        player2Cards.Enqueue(player1CardsInPlay.Dequeue());
+                while(player1CardsInPlay.Count > 0)
+                    winnersCards.Enqueue(player1CardsInPlay.Dequeue());
 
-                    while(player2CardsInPlay.Count > 0)
-                        player2Cards.Enqueue(player2CardsInPlay.Dequeue());
+                while(player2CardsInPlay.Count > 0)
+                    winnersCards.Enqueue(player2CardsInPlay.Dequeue());
                     
-                }
 
                 rounds++;
             }
