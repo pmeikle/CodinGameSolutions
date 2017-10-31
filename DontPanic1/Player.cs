@@ -20,12 +20,16 @@ namespace DontPanic1
             int nbTotalClones = int.Parse(inputs[5]); // number of generated clones
             int nbAdditionalElevators = int.Parse(inputs[6]); // ignore (always zero)
             int nbElevators = int.Parse(inputs[7]); // number of elevators
+            Console.Error.WriteLine(exitFloor);
+            var floorExits = new int[exitFloor + 1];
             for (int i = 0; i < nbElevators; i++)
             {
                 inputs = Console.ReadLine().Split(' ');
                 int elevatorFloor = int.Parse(inputs[0]); // floor on which this elevator is found
                 int elevatorPos = int.Parse(inputs[1]); // position of the elevator on its floor
+                floorExits[elevatorFloor] = elevatorPos;
             }
+            floorExits[exitFloor] = exitPos;
 
             // game loop
             while (true)
@@ -38,18 +42,15 @@ namespace DontPanic1
 
                 Console.Error.WriteLine($"width:{width}");
                 Console.Error.WriteLine($"cloneFloor:{cloneFloor} exitFloor:{exitFloor} clonePos:{clonePos} exitPos:{exitPos}");
-                if (cloneFloor == exitFloor)
-                {
-                    if (exitPos < clonePos && direction == "RIGHT" || exitPos > clonePos && direction == "LEFT")
-                    {
-                        Console.WriteLine("BLOCK");
-                    }
-                    else
-                    {
-                        Console.WriteLine("WAIT");
-                    }
+
+                if(cloneFloor == -1) { 
+                    Console.WriteLine("WAIT");
+                    continue;
                 }
-                else if (clonePos == width - 1)
+                var floorExitPos = floorExits[cloneFloor];
+
+                
+                if (floorExitPos < clonePos && direction == "RIGHT" || floorExitPos > clonePos && direction == "LEFT")
                 {
                     Console.WriteLine("BLOCK");
                 }
