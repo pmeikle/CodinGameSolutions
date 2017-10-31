@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DontPanic1", "DontPanic1\Do
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "War", "War\War.csproj", "{0F2684A5-3AB3-4367-976A-AC7D35434FFE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsLander1", "MarsLander1\MarsLander1.csproj", "{40F59757-9AFC-4499-AAC4-3E1D5BDD9AFE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{0F2684A5-3AB3-4367-976A-AC7D35434FFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0F2684A5-3AB3-4367-976A-AC7D35434FFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0F2684A5-3AB3-4367-976A-AC7D35434FFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40F59757-9AFC-4499-AAC4-3E1D5BDD9AFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40F59757-9AFC-4499-AAC4-3E1D5BDD9AFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40F59757-9AFC-4499-AAC4-3E1D5BDD9AFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40F59757-9AFC-4499-AAC4-3E1D5BDD9AFE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
