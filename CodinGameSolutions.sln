@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.26730.12
+VisualStudioVersion = 15.0.27130.2027
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThereIsNoSpoon", "CodinGameSolutions\ThereIsNoSpoon.csproj", "{94E233DF-946E-4B46-9C85-59027210F97F}"
 EndProject
@@ -16,6 +16,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsLander1", "MarsLander1\MarsLander1.csproj", "{40F59757-9AFC-4499-AAC4-3E1D5BDD9AFE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarsLander2", "MarsLander2\MarsLander2.csproj", "{A971C6CE-D808-4569-942D-E8378A9D600C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StockExchangeLosses", "StockExchangeLosses\StockExchangeLosses.csproj", "{202249D6-3241-4B8B-AED1-6D8CE5BFC2D1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TheLastCrusadeEp1", "TheLastCrusadeEp1\TheLastCrusadeEp1.csproj", "{FD19F8C5-44B9-46F8-85B8-E6DD5E3AA040}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +55,14 @@ Global
 		{A971C6CE-D808-4569-942D-E8378A9D600C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A971C6CE-D808-4569-942D-E8378A9D600C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A971C6CE-D808-4569-942D-E8378A9D600C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{202249D6-3241-4B8B-AED1-6D8CE5BFC2D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{202249D6-3241-4B8B-AED1-6D8CE5BFC2D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{202249D6-3241-4B8B-AED1-6D8CE5BFC2D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{202249D6-3241-4B8B-AED1-6D8CE5BFC2D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD19F8C5-44B9-46F8-85B8-E6DD5E3AA040}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD19F8C5-44B9-46F8-85B8-E6DD5E3AA040}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD19F8C5-44B9-46F8-85B8-E6DD5E3AA040}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD19F8C5-44B9-46F8-85B8-E6DD5E3AA040}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
